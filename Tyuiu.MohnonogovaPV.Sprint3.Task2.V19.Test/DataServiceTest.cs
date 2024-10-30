@@ -1,5 +1,5 @@
-using Tyuiu.MohnonogovaPV.Sprint3.Task1.V20.Lib;
-namespace Tyuiu.MohnonogovaPV.Sprint3.Task1.V20.Test
+using Tyuiu.MohnonogovaPV.Sprint3.Task2.V19.Lib;
+namespace Tyuiu.MohnonogovaPV.Sprint3.Task2.V19.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -10,11 +10,10 @@ namespace Tyuiu.MohnonogovaPV.Sprint3.Task1.V20.Test
             DataService ds = new DataService();
 
             int startValue = 1;
-            int stopValue = 16;
+            int stopValue = 10;
 
             double res = ds.GetSumSeries(startValue, stopValue);
-
-            double wait = 51191.405;
+            double wait = 4.971;
             Assert.AreEqual(wait, res);
         }
     }
