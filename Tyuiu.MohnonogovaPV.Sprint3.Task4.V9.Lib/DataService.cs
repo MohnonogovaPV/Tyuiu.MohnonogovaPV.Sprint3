@@ -14,7 +14,7 @@ namespace Tyuiu.MohnonogovaPV.Sprint3.Task4.V9.Lib
                 }
                 else
                 {
-                    res = res * (x / Math.Cos(x) - x);
+                    res = res * (x / ((Math.Cos(x)) - x));
                 }
             }
             return Math.Round(res,3);
