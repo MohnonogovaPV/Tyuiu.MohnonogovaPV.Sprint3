@@ -39,7 +39,6 @@ namespace Tyuiu.MohnonogovaPV.Sprint3.Task2.V19
             Console.WriteLine("Сумму ряда = " + ds.GetSumSeries(startValue, stopValue));
 
             Console.ReadKey();
-
         }
     }
 }
