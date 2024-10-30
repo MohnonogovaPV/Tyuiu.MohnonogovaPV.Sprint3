@@ -11,7 +11,7 @@ namespace Tyuiu.MohnonogovaPV.Sprint3.Task5.V13.Lib
             {
                 for (k = startValue2; k <= stopValue2; k++)
                 {
-                    sumSeries = sumSeries + ((Math.Cos(x)) + k / 2);
+                    sumSeries = sumSeries + (Math.Cos(x) + (k / 2));
                 }
             }
             return Math.Round(sumSeries, 3);
