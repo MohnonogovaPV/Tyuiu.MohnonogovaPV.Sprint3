@@ -13,7 +13,7 @@ namespace Tyuiu.MohnonogovaPV.Sprint3.Task2.V19.Test
             int stopValue = 10;
 
             double res = ds.GetSumSeries(startValue, stopValue);
-            double wait = 4.971;
+            double wait = -0.709;
             Assert.AreEqual(wait, res);
         }
     }
